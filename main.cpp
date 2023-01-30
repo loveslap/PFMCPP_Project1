@@ -52,13 +52,13 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun: cat
-//  action the cat meows
-cat.meow();
-//  action 2: the cat sleeps
-cat.sleep();
-//  action 3: the cat eats
-cat.eat();
+//  Noun: step sequencer
+//  action the step sequencer rewinds to the beginning
+stepSequencer.rewindToStart();
+//  action 2: the step sequencer set the loop points
+stepSequencer.setLoopPoints();
+//  action 3: the step sequencer randomizes the steps
+stepSequencer.randomizeSteps();
 //  2)
 //  Noun:  door
 //  action 1:  the door locks
@@ -74,7 +74,7 @@ printer.print();
 //  actionn 2: the printer formfeeds 
 printer.formfeed();
 //  action 3: the printer goes into standby
-printer.sleep();
+printer.standby();
 //  4)
 //  Noun:  flower
 //  action 1: the flower grows
@@ -90,12 +90,12 @@ ceilingFan.spinSlow();
 //  action 2: the ceiling fan spins quickly
 ceilingFan.spinFast();
 //  action 3: the ceiling fan's light turns on
-ceilingFan.illuminate();
+ceilingFan.turnOnLight();
 //  6)
 
 //  Noun: vending machine
 //  action 1: the vending machine displays a price
-vendingMachine.showPrice();
+vendingMachine.displayPrice();
 //  action 2: the vending machine dispenses chips
 vendingMachine.dispenseChips();
 //  action 3: the vending machine makes change
@@ -107,7 +107,7 @@ arpegiator.up()
 //  action 2: the arp goes down
 arpegiator.down();
 //  action 3: the arp goes serpentine
-apregiator.snake();
+apregiator.serpentine();
 
 //  8)
 //  Noun: missle
@@ -116,16 +116,16 @@ missle.launch();
 //  action 2: the missle targets
 missle.target();
 //  action 3: the missle explodes
-missle.boom();
+missle.explode();
 
 //  9) 
 //  Noun:  answering machine
 //  action 1: the answering machine records a message
-answeringMachine.record();
+answeringMachine.recordMessage();
 //  action 2: the answering machine plays back the messages
-answeringMachine.playBack();
+answeringMachine.playBackMessages();
 //  action 3: the answering machine erases the messages
-answeringMachhine.erase();
+answeringMachhine.eraseMessages();
 
 //  10)  
 //  Noun: roomba
