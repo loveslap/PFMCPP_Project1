@@ -52,85 +52,89 @@ arm.rotateCounterClockwise();           // 4) demonstrates camelCase
 
 
 //  1)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: step sequencer
+//  action the step sequencer rewinds to the beginning
+stepSequencer.rewindToStart();
+//  action 2: the step sequencer set the loop points
+stepSequencer.setLoopPoints();
+//  action 3: the step sequencer randomizes the steps
+stepSequencer.randomizeSteps();
 //  2)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:  door
+//  action 1:  the door locks
+door.lock();
+//  action 2:  the door unlocks
+door.unlock();
+//  action 3:  the door says hello
+door.greet();
 //  3)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: printer
+//  action 1: the printer prints
+printer.print();
+//  actionn 2: the printer formfeeds 
+printer.formfeed();
+//  action 3: the printer goes into standby
+printer.standby();
 //  4)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun:  flower
+//  action 1: the flower grows
+flower.grow();
+//  action 2: the flower blooms
+flower.bloom();
+//  action 3: the flower wilts
+flower.wilt();
 //  5)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  Noun: ceiling fan
+//  action 1: the ceiling fan spins slowly
+ceilingFan.spinSlow();
+//  action 2: the ceiling fan spins quickly
+ceilingFan.spinFast();
+//  action 3: the ceiling fan's light turns on
+ceilingFan.turnOnLight();
 //  6)
-//  Noun:
-//  action 1:
 
-//  action 2:
-
-//  action 3:
-
+//  Noun: vending machine
+//  action 1: the vending machine displays a price
+vendingMachine.displayPrice();
+//  action 2: the vending machine dispenses chips
+vendingMachine.dispenseChips();
+//  action 3: the vending machine makes change
+vendingMachine.makeChange();
 //  7)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
+//  Noun: arpegiator
+//  action 1: the arp goes up
+arpegiator.up()
+//  action 2: the arp goes down
+arpegiator.down();
+//  action 3: the arp goes serpentine
+apregiator.serpentine();
 
 //  8)
-//  Noun:
-//  action 1:
+//  Noun: missle
+//  action 1:  the missle launches
+missle.launch();
+//  action 2: the missle targets
+missle.target();
+//  action 3: the missle explodes
+missle.explode();
 
-//  action 2:
+//  9) 
+//  Noun:  answering machine
+//  action 1: the answering machine records a message
+answeringMachine.recordMessage();
+//  action 2: the answering machine plays back the messages
+answeringMachine.playBackMessages();
+//  action 3: the answering machine erases the messages
+answeringMachhine.eraseMessages();
 
-//  action 3:
-
-//  9)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
-//  10)
-//  Noun:
-//  action 1:
-
-//  action 2:
-
-//  action 3:
-
+//  10)  
+//  Noun: roomba
+//  action 1: the roomba sweeps
+roomba.sweep();
+//  action 2: the roomba goes home
+roomba.goHome();
+//  action 3:  the roomba notifies the user the sweeping is completed
+roomba.notify();
 
 
 #endif
